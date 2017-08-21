@@ -1,0 +1,116 @@
+alert dns any any -> any any (msg:"Hitomi"; dns_query; content: "hitomi.la"; sid:10002; rev:1;)
+
+alert tcp any any -> any 80 (msg:"kass.org.kp"; content:"GET / HTTP/1."; content:"Host: www.kass.org.kp"; sid:10003; rev:1;)
+alert tcp any any -> any 80 (msg:"kass.org.kp"; content:"GET / HTTP/1."; content:"Host: kass.org.kp"; sid:10004; rev:1;)
+
+alert tcp any any -> any 80 (msg:"KCNA"; content:"GET / HTTP/1."; content:"Host: www.kcna.kp"; sid:10005; rev:1;)
+alert tcp any any -> any 80 (msg:"KCNA"; content:"GET / HTTP/1."; content:"Host: kcna.kp"; sid:10006; rev:1;)
+
+alert tcp any any -> any 80 (msg:"BoB Wiki"; content:"GET / HTTP/1."; content:"Host: www.kitribob.wiki"; sid:10007; rev:1;)
+alert tcp any any -> any 80 (msg:"BoB Wiki"; content:"GET / HTTP/1."; content:"Host: kitribob.wiki"; sid:10008; rev:1;)
+alert tcp any any -> any 80 (msg:"BoB Wiki"; content:"GET /wiki/ HTTP/1."; content:"Host: www.kitribob.wiki"; sid:10009; rev:1;)
+alert tcp any any -> any 80 (msg:"BoB Wiki"; content:"GET /wiki/ HTTP/1."; content:"Host: kitribob.wiki"; sid:10010; rev:1;)
+
+alert tcp any any -> any 80 (msg:"KS8282"; content:"GET / HTTP/1."; content:"Host: www.ks8282.com"; sid:10011; rev:1;)
+alert tcp any any -> any 80 (msg:"KS8282"; content:"GET / HTTP/1."; content:"Host: ks8282.com"; sid:10012; rev:1;)
+
+alert tcp any any -> any 80 (msg:"LINOIT"; content:"GET /users/men1212/canvases/19%EA%B8%88%20 HTTP/1."; content:"Host: www.linoit.com"; sid:10013; rev:1;)
+alert tcp any any -> any 80 (msg:"LINOIT"; content:"GET /users/men1212/canvases/19%EA%B8%88%20 HTTP/1."; content:"Host: linoit.com"; sid:10014; rev:1;)
+
+alert tcp any any -> any 80 (msg:"NAVER"; content:"GET / HTTP/1."; content:"Host: www.naver.com"; sid:10015; rev:1;)
+alert tcp any any -> any 80 (msg:"NAVER"; content:"GET / HTTP/1."; content:"Host: naver.com"; sid:10016; rev:1;)
+
+alert tcp any any -> any 80 (msg:"NAMED"; content:"GET /game/ladder/v2_index.php HTTP/1."; content:"Host: www.named.com"; sid:10017; rev:1;)
+alert tcp any any -> any 80 (msg:"NAMED"; content:"GET /game/ladder/v2_index.php HTTP/1."; content:"Host: named.com"; sid:10018; rev:1;)
+
+alert tcp any any -> any 80 (msg:"NAVER6"; content:"GET / HTTP/1."; content:"Host: www.naver6.com"; sid:10019; rev:1;)
+alert tcp any any -> any 80 (msg:"NAVER6"; content:"GET / HTTP/1."; content:"Host: naver6.com"; sid:10020; rev:1;)
+
+alert tcp any any -> any 80 (msg:"RODONG"; content:"GET / HTTP/1."; content:"Host: www.rodong.rep.kp"; sid:10021; rev:1;)
+alert tcp any any -> any 80 (msg:"RODONG"; content:"GET / HTTP/1."; content:"Host: rodong.rep.kp"; sid:10022; rev:1;)
+
+alert tcp any any -> any 80 (msg:"snoopspy download"; content:"GET /download HTTP/1."; content:"Host: www.snoopspy.com"; sid:10023; rev:1;)
+alert tcp any any -> any 80 (msg:"snoopspy download"; content:"GET /download HTTP/1."; content:"Host: snoopspy.com"; sid:10024; rev:1;)
+
+alert tcp any any -> any 80 (msg:"GilGil STRAMING MP4"; content:"GET /streaming/test.mp4 HTTP/1."; content:"Host: test.gilgil.net"; sid:10025; rev:1;)
+
+alert tcp any any -> any 80 (msg:"URIMINZOKKIRI"; content:"GET / HTTP/1."; content:"Host: www.uriminzokkiri.com"; sid:10026; rev:1;)
+alert tcp any any -> any 80 (msg:"URIMINZOKKIRI"; content:"GET / HTTP/1."; content:"Host: uriminzokkiri.com"; sid:10027; rev:1;)
+
+alert tcp any any -> any 80 (msg:"4Shared"; content:"GET / HTTP/1."; content:"Host: www.4shared.com"; sid:10028; rev:1;)
+alert tcp any any -> any 80 (msg:"4Shared"; content:"GET / HTTP/1."; content:"Host: 4shared.com"; sid:10029; rev:1;)
+
+alert tcp any any -> any 80 (msg:"bamwar25"; content:"GET / HTTP/1."; content:"Host: www.bamwar25.com"; sid:10030; rev:1;)
+alert tcp any any -> any 80 (msg:"bamwar25"; content:"GET / HTTP/1."; content:"Host: bamwar25.com"; sid:10031; rev:1;)
+
+alert tcp any any -> any 80 (msg:"faa25"; content:"GET / HTTP/1."; content:"Host: www.faa25.com"; sid:10032; rev:1;)
+alert tcp any any -> any 80 (msg:"faa25"; content:"GET / HTTP/1."; content:"Host: faa25.com"; sid:10033; rev:1;)
+
+alert tcp any any -> any 80 (msg:"ilbe"; content:"GET /ilbe HTTP/1."; content:"Host: www.ilbe.com"; sid:10034; rev:1;)
+alert tcp any any -> any 80 (msg:"ilbe"; content:"GET /ilbe HTTP/1."; content:"Host: ilbe.com"; sid:10035; rev:1;)
+
+alert tcp any any -> any 80 (msg:"kimmadam"; content:"GET / HTTP/1."; content:"Host: www.kimmadam.net"; sid:10036; rev:1;)
+alert tcp any any -> any 80 (msg:"kimmadam"; content:"GET / HTTP/1."; content:"Host: kimmadam.net"; sid:10037; rev:1;)
+
+alert tcp any any -> any 80 (msg:"minjok"; content:"GET / HTTP/1."; content:"Host: www.minjok.com"; sid:10038; rev:1;)
+alert tcp any any -> any 80 (msg:"minjok"; content:"GET / HTTP/1."; content:"Host: minjok.com"; sid:10039; rev:1;)
+
+alert tcp any any -> any 80 (msg:"narutoxxx"; content:"GET / HTTP/1."; content:"Host: www.narutoxxx.com"; sid:10040; rev:1;)
+alert tcp any any -> any 80 (msg:"narutoxxx"; content:"GET / HTTP/1."; content:"Host: narutoxxx.com"; sid:10041; rev:1;)
+
+alert tcp any any -> any 80 (msg:"naver.cm"; content:"GET / HTTP/1."; content:"Host: www.naver.cm"; sid:10042; rev:1;)
+alert tcp any any -> any 80 (msg:"naver.cm"; content:"GET / HTTP/1."; content:"Host: naver.cm"; sid:10043; rev:1;)
+
+alert tcp any any -> any 80 (msg:"ryomyong"; content:"GET / HTTP/1."; content:"Host: www.ryomyong.com"; sid:10044; rev:1;)
+alert tcp any any -> any 80 (msg:"ryomyong"; content:"GET / HTTP/1."; content:"Host: ryomyong.com"; sid:10045; rev:1;)
+
+alert tcp any any -> any 80 (msg:"sedisk"; content:"GET / HTTP/1."; content:"Host: www.sedisk.com"; sid:10046; rev:1;)
+alert tcp any any -> any 80 (msg:"sedisk"; content:"GET / HTTP/1."; content:"Host: sedisk.com"; sid:10047; rev:1;)
+
+alert tcp any any -> any 80 (msg:"sk386"; content:"GET / HTTP/1."; content:"Host: www.sk386.com"; sid:10048; rev:1;)
+alert tcp any any -> any 80 (msg:"sk386"; content:"GET / HTTP/1."; content:"Host: sk386.com"; sid:10049; rev:1;)
+
+alert tcp any any -> any 80 (msg:"tcosc"; content:"GET / HTTP/1."; content:"Host: www.tcosc.net"; sid:10050; rev:1;)
+alert tcp any any -> any 80 (msg:"tcosc"; content:"GET / HTTP/1."; content:"Host: tcosc.net"; sid:10051; rev:1;)
+
+alert tcp any any -> any 80 (msg:"torenzoa"; content:"GET / HTTP/1."; content:"Host: www.torenzoa.net"; sid:10052; rev:1;)
+alert tcp any any -> any 80 (msg:"torenzoa"; content:"GET / HTTP/1."; content:"Host: torenzoa.net"; sid:10053; rev:1;)
+
+alert tcp any any -> any 80 (msg:"umj262"; content:"GET / HTTP/1."; content:"Host: www.umj262.com"; sid:10054; rev:1;)
+alert tcp any any -> any 80 (msg:"umj262"; content:"GET / HTTP/1."; content:"Host: umj262.com"; sid:10055; rev:1;)
+
+alert tcp any any -> any 80 (msg:"uriminzokkiri"; content:"GET / HTTP/1."; content:"Host: www.uriminzokkiri.com"; sid:10056; rev:1;)
+alert tcp any any -> any 80 (msg:"uriminzokkiri"; content:"GET / HTTP/1."; content:"Host: uriminzokkiri.com"; sid:10057; rev:1;)
+
+alert tcp any any -> any 80 (msg:"winclub88"; content:"GET /my/4D.html HTTP/1."; content:"Host: www.winclub88.net"; sid:10058; rev:1;)
+alert tcp any any -> any 80 (msg:"winclub88"; content:"GET /my/4D.html HTTP/1."; content:"Host: winclub88.net"; sid:10059; rev:1;)
+
+alert tcp any any -> any 80 (msg:"onaratv"; content:"GET / HTTP/1."; content:"Host: www.onaratv.com"; sid:10060; rev:1;)
+alert tcp any any -> any 80 (msg:"onaratv"; content:"GET / HTTP/1."; content:"Host: onaratv.com"; sid:10061; rev:1;)
+
+alert dns any any -> any any (msg:"pornpros"; dns_query; content: "pornpros.com"; sid:10062; rev:1;)
+
+alert dns any any -> any any (msg:"graphgame"; dns_query; content: "graphgame.net"; sid:10063; rev:1;)
+
+alert dns any any -> any any (msg:"mujige53770.wixsite"; dns_query; content: "mujige53770.wixsite.com"; sid:10064; rev:1;)
+
+alert dns any any -> any any (msg:"sex"; dns_query; content: "sex.com"; sid:10065; rev:1;)
+
+alert dns any any -> any any (msg:"torrenthaja"; dns_query; content: "torrenthaja.com"; sid:10066; rev:1;)
+
+alert dns any any -> any any (msg:"torrentkim10"; dns_query; content: "torrentkim10.net"; sid:10067; rev:1;)
+
+alert dns any any -> any any (msg:"bamtoki"; dns_query; content: "webtoon.bamtoki.com"; sid:10068; rev:1;)
+
+alert dns any any -> any any (msg:"mtbucks"; dns_query; content: "mtbucks.com"; sid:10069; rev:1;)
+
+alert dns any any -> any any (msg:"opioids"; dns_query; content: "opioids.com"; sid:10070; rev:1;)
+
+alert dns any any -> any any (msg:"phishtank"; dns_query; content: "phishtank.com"; sid:10071; rev:1;)
+
+alert dns any any -> any any (msg:"yobit"; dns_query; content: "yobit.net"; sid:10072; rev:1;)
+
+alert dns any any -> any any (msg:"facebook"; dns_query; content: "facebook.com"; sid:10073; rev:1;)
+
+
+
