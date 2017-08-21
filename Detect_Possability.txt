@@ -1,0 +1,54 @@
+
+http://naver6.com -- 접속이 안되지만, 탐지는 잘 됨.
+http://onaratv.com -- 접속이 안되며, 탐지도 안됨.
+
+-- 탐지할 수 없음 --
+
+https://www.opioids.com/offshorepharmacy/index.html
+https://www.facebook.com/profile.php?id=100019007882633
+https://yobit.net/en/dice/
+
+-- HTTPS로만 열림. DNS로 탐지 가능 --
+
+http://hitomi.la 
+http://pornpros.com
+https://graphgame.net/
+https://mujige53770.wixsite.com
+https://sex.com
+https://torrenthaja.com
+https://torrentkim10.net
+https://webtoon.bamtoki.com/
+https://www.mtbucks.com
+https://www.phishtank.com/
+
+
+-- 매우 잘 탐지 됨 --
+
+http://kass.org.kp/ 
+http://kcna.kp/
+http://kitribob.wiki/wiki/
+http://ks8282.com/
+http://linoit.com/users/men1212/canvases/19%EA%B8%88%20
+http://naevr.com/
+http://named.com/game/ladder/v2_index.php
+http://rodong.rep.kp/
+http://snoopspy.com/download
+http://test.gilgil.net/streaming/test.mp4
+http://uriminzokkiri.com
+http://www.4shared.com
+http://www.bamwar25.com/
+http://www.faa25.com/
+http://www.ilbe.com/ilbe
+http://www.kimmadam.net/
+http://www.minjok.com
+http://www.narutoxxx.com
+http://www.naver.cm
+http://www.ryomyong.com
+http://www.sedisk.com
+http://www.sk386.com/
+http://www.tcosc.net/
+http://www.torenzoa.net
+http://www.umj262.com/
+http://www.uriminzokkiri.com
+http://www.uriminzokkiri.com/
+http://www.winclub88.net/my/4D.html
